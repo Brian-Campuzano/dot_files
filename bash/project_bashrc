@@ -1,0 +1,2 @@
+export PROJECT_NAME=""
+source $DOT_FILES/bash/ascii_art.sh
