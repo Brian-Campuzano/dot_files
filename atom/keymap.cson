@@ -1,0 +1,5 @@
+'atom-text-editor':
+  'core:select-all': 'unset!'
+  'ctrl-h': 'core:select-all'
+  'ctrl-a': 'editor:move-to-beginning-of-line'
+  'ctrl-e': 'editor:move-to-end-of-line'
