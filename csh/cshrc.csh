@@ -3,4 +3,4 @@
 alias precmd "source $DOT_FILES/csh/git_prompt.csh"
 
 set nobeep
-setenv editor emacs
+setenv EDITOR emacs
