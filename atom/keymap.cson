@@ -3,3 +3,5 @@
   'ctrl-h': 'core:select-all'
   'ctrl-a': 'editor:move-to-beginning-of-line'
   'ctrl-e': 'editor:move-to-end-of-line'
+'atom-workspace':
+  'ctrl-win-r': 'case-keep-replace:toggle'
