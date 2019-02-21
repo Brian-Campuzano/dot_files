@@ -6,9 +6,14 @@ alias precmd "source $DOT_FILES/csh/git_prompt.csh"
 set nobeep
 
 # Set editor, mainly for git commit messages
-setenv EDITOR emacs -nw
+setenv EDITOR emacs
 
 # Set languages in case the machine you are on is misconfigured
 setenv LANGUAGE en_US.UTF-8
 setenv LANG en_US.UTF-8
 setenv LC_ALL en_US.UTF-8
+
+# Setup history size
+setenv history 20000
+# Ignore history duplicates
+setenv histdup all
